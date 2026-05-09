@@ -4,7 +4,7 @@ public class Duck {
 	private int numberOfFriends;
 	private String favoriteFood;
 	void quack() {
-		System.out.println("Daffy quacks when seeing her friends and food");
+		System.out.println("Daffy quacks when seeing "+favoriteFood+" and when she sees her friends which she has " +numberOfFriends+" of");
 	}
 	void waddle() {
 		System.out.println("Daffy waddles");
