@@ -41,7 +41,7 @@ import game_tools.GameControlScene;
  * Sun    | 1,391,000    | 0                 | N/A           | N/A
  * Mercury| 4,879        | 57,900,000        | 88            | 0
  * Venus  | 12,104       | 108,200,000       | 224.7         | 0
- * Earth  | 12,756       | 149,600,000       | 365.2         | 1
+ * Earth  | 12,756       | 149,600,000       | 365.2		 | 1
  * Mars   | 6,792        | 227,900,000       | 687           | 2
  * Jupiter| 142,984      | 778,600,000       | 4,331         | 79
  * Saturn | 120,536      | 1,433,500,000     | 10,747        | 82
@@ -67,6 +67,13 @@ public class SolarSystem implements GameControlScene {
     Game gameFrame = new Game("Solar System");
     
     Planet earth = new Planet(12);
+    Planet venus = new Planet(1);
+    Planet mercury = new Planet(1);
+    Planet mars = new Planet(1);
+    Planet jupiter = new Planet(1);
+    Planet saturn = new Planet(1);
+    Planet uranus = new Planet(1);
+    Planet neptune = new Planet(1);
     
     public SolarSystem() {
         gameFrame.setScene(this);
